@@ -81,3 +81,7 @@ La conexión se bloquea si detecta una cuenta real, de concurso o un servidor co
 - No hay ventaja demostrada. Los backtests se hicieron solo con datos sintéticos y el resultado es indistinguible del azar tras costes. Sirve para investigar, no como sistema rentable.
 - El LLM (Gemini) y el bot de Telegram se probaron con clientes simulados, no con claves reales.
 - El sentimiento léxico es simple y solo en inglés.
+
+## Licencia
+
+Copyright (c) 2026 Diego Gonzalez Rodriguez. Todos los derechos reservados. El código se publica solo para consulta y evaluación; para cualquier otro uso hace falta permiso por escrito. Ver [LICENSE](LICENSE).

@@ -1,0 +1,27 @@
+Copyright (c) 2026 Diego Gonzalez Rodriguez. Todos los derechos reservados.
+
+Este código se publica únicamente para consulta y evaluación, por ejemplo como
+muestra de trabajo. Sin permiso previo y por escrito del autor no se permite
+copiar, modificar, distribuir, sublicenciar ni utilizar este software, total o
+parcialmente, con ningún fin.
+
+El software se ofrece "tal cual", sin garantía de ningún tipo. No constituye
+asesoramiento financiero y no debe usarse para operar con dinero real.
+
+Las dependencias de terceros (por ejemplo MetaTrader5, PyTorch, ChromaDB) se
+rigen por sus propias licencias y no están cubiertas por este aviso.
+
+---
+
+Copyright (c) 2026 Diego Gonzalez Rodriguez. All rights reserved.
+
+This code is published for viewing and evaluation only (for example, as a work
+sample). No permission is granted to copy, modify, distribute, sublicense or
+use this software, in whole or in part, for any purpose without the prior
+written permission of the author.
+
+The software is provided "as is", without warranty of any kind. It is not
+financial advice and must not be used to trade with real money.
+
+Third-party dependencies are governed by their own licenses and are not
+covered by this notice.
