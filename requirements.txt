@@ -1,0 +1,30 @@
+# MT5 AGI V2 - dependencias (Python 3.10+; probado en 3.12)
+# Instalación:  python -m venv .venv && .venv\Scripts\activate && pip install -r requirements.txt
+
+# --- Broker / datos ---
+MetaTrader5>=5.0.45          # solo Windows; el sistema cae a MockMT5 si no está disponible
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.3
+
+# --- Modelos predictivos ---
+torch>=2.2                   # Transformer temporal / LSTM (CPU basta)
+
+# --- Memoria vectorial y RAG ---
+chromadb>=0.5                # BD vectorial local persistente (con fallback NumPy si falta)
+feedparser>=6.0.10           # ingesta RSS (Bloomberg, Reuters, ForexLive)
+requests>=2.31
+truststore>=0.9            # usa el almacén de certificados del SO (antivirus/proxy HTTPS en Windows)
+
+# --- LLM (opcional; sin clave se usa el bypass/mock) ---
+google-genai>=1.0
+
+# --- Interfaz ---
+pyTelegramBotAPI>=4.20       # telebot (+ AsyncTeleBot)
+aiohttp>=3.9                 # requerido por telebot.async_telebot
+matplotlib>=3.8
+
+# --- Utilidades / tests ---
+python-dotenv>=1.0
+pytest>=8.0

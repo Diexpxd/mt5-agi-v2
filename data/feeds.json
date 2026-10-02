@@ -1,0 +1,6 @@
+{
+  "_nota": "Feeds RSS del pipeline RAG. Reuters cerró sus RSS públicos (se usa Google News filtrado a reuters.com). ForexLive ahora es investingLive. Edita libremente: {'nombre': ['url1', 'url2']}",
+  "bloomberg": ["https://feeds.bloomberg.com/markets/news.rss"],
+  "reuters": ["https://news.google.com/rss/search?q=site:reuters.com+markets+OR+forex+OR+fed&hl=en-US&gl=US&ceid=US:en"],
+  "forexlive": ["https://investinglive.com/feed", "https://www.forexlive.com/feed/news"]
+}
